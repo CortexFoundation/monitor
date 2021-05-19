@@ -1,0 +1,9 @@
+{
+  "fromAddress": "emailAddress@email",
+  "authorization": "SMTPAuthorization",
+  "SMTPHost": "SMTP Host",
+  "SMTPPort": "SMTP Port",
+  "toAddress": "emailAddress@email",
+  "rpc": "http://127.0.0.1:8545",
+  "interval": 10
+}

@@ -1,0 +1,24 @@
+{
+  "name": "monitor",
+  "version": "1.0.0",
+  "description": "``` curl -X POST --data '{\"jsonrpc\":\"2.0\",\"method\":\"ctxc_blockNumber\",\"params\":[],\"id\":83}'  127.0.0.1:8545  -H \"Content-Type: application/json\" ```",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CortexFoundation/monitor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CortexFoundation/monitor/issues"
+  },
+  "homepage": "https://github.com/CortexFoundation/monitor#readme",
+  "dependencies": {
+    "nodemailer": "^6.6.0",
+    "request": "^2.88.2"
+  }
+}
