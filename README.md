@@ -37,7 +37,7 @@ gmail config exmple: conf.example2.json
 
 ### Gmail config guide
 
-#### enable STPM
+#### enable SMTP
 
 login gmail
 
