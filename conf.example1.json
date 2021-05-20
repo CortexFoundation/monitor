@@ -1,0 +1,14 @@
+{
+  "fromAddress": "**********@qq.com",
+  "authorization": "SMTPAuthorization",
+  "SMTPHost": "smtp.qq.com",
+  "SMTPPort": "465",
+  "toAddress": "**********@qq.com",
+  "rpc": "http://127.0.0.1:8545",
+  "interval": 600,
+  "OAuth2": false,
+  "clientId":"",
+  "clientSecret":"",
+  "refreshToken":"",
+  "accessToken":""
+}

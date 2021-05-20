@@ -1,0 +1,14 @@
+{
+  "fromAddress": "*************@gmail.com",
+  "authorization": "*************",
+  "SMTPHost": "smtp.gmail.com",
+  "SMTPPort": "465",
+  "toAddress": "*************@gmail.com",
+  "rpc": "http://storage.cortexlabs.ai:30089",
+  "interval": 600,
+  "OAuth2": true,
+  "clientId":"***************************************.apps.googleusercontent.com",
+  "clientSecret":"**************************",
+  "refreshToken":"******************************************************************************",
+  "accessToken":"********************************************************************************************************"
+}
