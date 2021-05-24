@@ -5,5 +5,12 @@
   "SMTPPort": "SMTP Port",
   "toAddress": "emailAddress@email",
   "rpc": "http://127.0.0.1:8545",
-  "interval": 10
+  "interval": 600,
+  "OAuth2": true,
+  "clientId":"***************************************.apps.googleusercontent.com",
+  "clientSecret":"**************************",
+  "refreshToken":"******************************************************************************",
+  "accessToken":"********************************************************************************************************",
+  "criticalPoint":130,
+  "riskyLevel":80
 }

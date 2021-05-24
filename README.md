@@ -55,15 +55,23 @@ CREATE PROJECT -> Project name -> CREATE
 
 choose the project created above, go to [APIs overview](https://console.cloud.google.com/apis/dashboard)
 
-OAuth consent screen -> Exernal -> CREATE -> App name -> User support email -> Developer contact information -> SAVE AND CONTINUE
+OAuth consent screen -> Exernal -> CREATE -> App name -> User support email -> Developer contact information 
 
-Credentials -> CREATE CREDENTIALS -> OAuth client ID -> Application type -> Desktop app -> CREATE
+-> SAVE AND CONTINUE -> SAVE AND CONTINUE -> test users -> add users -> the gmail to send the email 
+
+-> SAVE AND CONTINUE
+
+Credentials -> CREATE CREDENTIALS -> OAuth client ID -> Application type -> Web Application -> Authorised redirect URIs 
+
+-> ADD URL -> https://developers.google.com/oauthplayground -> CREATE
 
 copy Client ID and Client Secret to config.json
 
 #### Get refreshToken and accessToken
 
 [OAuth 2.0 Playground](https://developers.google.com/oauthplayground)
+
+In the top right corner, click the settings icon, check "Use your own OAuth credentials" and paste your Client ID and Client Secret.
 
 Step 1,  Select Gmail API v1 -> https://mail.google.com/ -> Authorize APIs
 
