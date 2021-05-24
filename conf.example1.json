@@ -10,5 +10,7 @@
   "clientId":"",
   "clientSecret":"",
   "refreshToken":"",
-  "accessToken":""
+  "accessToken":"",
+  "criticalPoint":130,
+  "riskyLevel":80
 }
